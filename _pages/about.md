@@ -20,7 +20,7 @@ Hi, I'm Zach! I earned my B.S. in computer science at the University of Vermont 
 At UVM, I conducted applied machine learning research under the guidance of [Prof. Byung Lee](https://bslee.w3.uvm.edu/) and [Prof. Chris Skalka](https://ceskalka.w3.uvm.edu/). 
 I worked on methods for modeling multivariate time-series data.
 
-Although currently working in industry as a backend software engineer, I am applying to several CS PhD programs Fall 2024 to pursue a career in research.
+Although currently working in industry as a backend software engineer, I am applying to several CS PhD programs for Fall 2024 to pursue a career in research.
 
 I believe ML holds amazing potential to simplify the communication between humans and machines and enable us to leverage technology more effectively in our day-to-day lives. Natural language is the primary medium by which humans communicate ideas, and so it follows that models that can interpret and express themselves in natural language will be paramount in allowing people to efficiently interact with and direct machines. 
 

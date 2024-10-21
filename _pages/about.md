@@ -20,34 +20,26 @@ social: true  # includes social icons at the bottom of the page
 #### About Me
 ---
 
-Hi, I'm Zach! I earned my B.S. in computer science at the University of Vermont (home state). 
-At UVM, I conducted applied machine learning research under the guidance of [Prof. Byung Lee](https://bslee.w3.uvm.edu/) and [Prof. Chris Skalka](https://ceskalka.w3.uvm.edu/). 
-I worked on methods for modeling multivariate time-series data and making predictions about the environment that generated the data.
+Hi, I'm Zach! 
 
-Although currently working in industry as a backend software engineer at [Cox Automotive](https://www.coxautoinc.com/), I am applying to several CS PhD programs for Fall 2024 to pursue a career in ML & NLP research.
+I am a CS PhD student at the University of California, Davis interested in machine learning and natural language processing. 
+
+I earned my B.S. in computer science at the University of Vermont (home state). At UVM, I conducted applied machine learning research under the guidance of [Prof. Byung Lee](https://bslee.w3.uvm.edu/) and [Prof. Chris Skalka](https://ceskalka.w3.uvm.edu/). I worked on methods for modeling multivariate time-series data and making predictions about the environment that generated said data.
 
 #### Research Interests
 ---
 
-I believe ML holds amazing potential to simplify the communication between humans and machines and enable us to leverage technology more effectively in our day-to-day lives. Natural language is the primary medium by which humans communicate ideas, and so it follows that models that can interpret and express themselves in natural language will be paramount in allowing people to efficiently interact with and direct machines. 
+`Multimodal Learning`
 
-With these motivations, my research interests lie at the intersection of NLP and ML with the goal of creating language models (LMs)
-that can effectively understand and communicate with humans in natural language. The current topics
-that I am most drawn to are the following: 
+My overarching goal is to enhance the capabilities of machine intelligences by helping them learn better internal world models. I believe the primary way to achieve this is by improving multimodal learning techniques, enabling models to learn about the world from as many useful modalities as possible. 
 
-`(1) Memory Augmentation and External Knowledge Retrieval` I believe that augmenting LMs with updateable long-term memory (parametric or non-parametric) or external
-knowledge retrieval will be essential in continuing to improve their abilities by decoupling the scaling of knowledge
-that they have access to from their training data and model size, as well as improving their interpretability and
-factuality. 
+Why mutlimodal learning? Language alone is limited in the information it can convey about the world. For example, while textual descriptions can tell an AI about the concept of gravity or the texture of an object, they can't fully express the actual embodied experience and feeling of these phenomena. I am skeptical that an AI learning only from human language will be able to understand the world in the same way humans do - especially when it comes to concepts like intuitive physics, which can't easily be inferred from text. Most of a human's (and all of an animal's) internal world model is automatically formed through sensory experience, not through language.  
 
-`(2) Multimodal Learning` I think that models that have the ability to learn from and interpret
-multiple modalities of data will be able to build much richer representations of language than models that rely on
-textual data alone. 
+Currently, I am thinking about how to unify the representation of objects and concepts across different modalities. For example, when I experience the ocean: I hear the ocean, I smell the ocean, I see the ocean, I feel the ocean, and I sometimes (accidentally) taste the ocean. Each of these modalities of experience provides valuable data that helps me form a more complete understanding of what the ocean is and how it behaves, allowing me to reason about it and make accurate predictions about it. The challenge for AI, then, is how to replicate this ability to integrate multiple sensory modalities into a unified understanding of the world. How can we develop machine intelligences that don’t just rely on text or a single form of data, but instead learn from the full spectrum of available information?
 
-`(3) Representation Learning` Improving the mechanisms available to LMs for automatically
-learning semantically and contextually aware representastions (whether those representations be of words, phrases, or
-even concepts) will be crucial in bolstering their understanding of natural language.
+`Memory`
 
+I am also interested in studying the memory of large foundation models. Current LLMs store their knowledge in a fixed, distributed manner, which is hard for humans to interpret and manipulate. When we want to teach the LM new information it requires costly retraining. How can we decouple the knowledge that models have access to from their training data? How can we easily edit specific knowledge within them without overwriting unrelated knowledge or damaging other capabilities?  How we can easily integrate new knowledge without the need for retraining/finetuning? 
 
 <!-- 
 Write your biography here. Tell the world about yourself.  
